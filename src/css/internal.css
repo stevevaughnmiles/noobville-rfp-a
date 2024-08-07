@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+.rfp-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.rfp-content h1, .rfp-content h2, .rfp-content h3, .rfp-content h4, .rfp-content h5, .rfp-content h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.rfp-content p {
+    margin-bottom: 10px;
+}
+
+.rfp-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.markdown-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.markdown-content pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content h5, .markdown-content h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.markdown-content p {
+    margin-bottom: 10px;
+}
+
+.markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.markdown-content th, .markdown-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.markdown-content th {
+    background-color: #f4f4f4;
+}
+
+.notification {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.notification h1 {
+    margin-bottom: 20px;
+}
+
+.notification p {
+    margin-bottom: 20px;
+}
+
+.notification a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.notification a:hover {
+    background-color: #0056b3;
+}
+
+/* Button Styles */
+.links {
+    margin-bottom: 20px;
+}
+
+.links .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.links .button:hover {
+    background-color: #0056b3;
+}
+
+.links .search-button {
+    background-color: #28a745;
+    margin-left: 10px;
+}
+
+.links .search-button:hover {
+    background-color: #218838;
+}
